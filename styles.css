@@ -1,0 +1,39 @@
+body{
+  background-color: green;
+  text-align: center;
+}
+
+h1{
+  text-align: center;
+}
+
+.grid{
+  display: flex;
+  flex-flow:row wrap;
+  width: 620px;
+  height: 50px;
+  border: 1px solid black;
+  margin: 100px auto;
+
+}
+
+.grid div{
+  width: 60px;
+  height: inherit;
+  border: 1px solid black;
+  text-align: center;
+  font-weight: 600;
+  color: black;
+  font-size: x-large;
+}
+.exchange{
+  background-color: red;
+}
+.green{
+  background-color: green;
+}
+footer{
+  color: white;
+  margin-left: 0px;
+  margin-bottom: 0px;
+}
